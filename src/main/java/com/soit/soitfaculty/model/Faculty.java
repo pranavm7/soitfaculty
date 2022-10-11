@@ -8,7 +8,7 @@ public class Faculty {
 	private String email;
 	
 	
-	public faculty() {
+	public Faculty() {
 		
 	}
 

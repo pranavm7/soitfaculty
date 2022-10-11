@@ -37,7 +37,7 @@ public class FacultyController {
 	@GetMapping("/list")
 	public String listFaculties(Model theModel) {
 		// Add faculties to Spring Model
-		theModel.addAttribute("faculties", theModel)
+		theModel.addAttribute("faculties", theModel);
 		return "list-faculties";
 	}
 }
